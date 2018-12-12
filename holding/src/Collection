@@ -1,0 +1,21 @@
+Collection
+    List(按照插入顺序保存元素)
+        ArrayList
+            以数组形式保存元素,擅长随机方式访问数据.
+        LinkedList
+            以链表形式保存元素,擅长插入和删除数据.
+    Set(每个相同的项只保存一次),存储无序
+        HashSet
+            最快的获取元素方式.
+            适合场景:某事物是否是某个Set的成员,不会关心它在Set出现的顺序.
+        TreeSet
+            适用场景:存储顺序很重要,按照比较结果的升序保存对象
+        LinkedHashSet
+            按照被添加的顺序保存对象.
+    Map
+        HashMap
+            最快的查找技术,没有按照任何明显的顺序保存元素
+        TreeMap
+            按照比较结果的升序保存键.
+        LinkedHashMap
+            按照插入顺序保存键,同时还保留HashMap的查询速度.

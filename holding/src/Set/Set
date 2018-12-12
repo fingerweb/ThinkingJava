@@ -1,0 +1,28 @@
+Set
+共有性质:不保存重复的元素,具有和Collection完全一样的接口
+
+分类:
+    HashSet
+        性质:HashSet的元素存储方式使用了散列,将元素存储到红黑树数据结构,所以元素存储是无序的.
+            注:当HashSet集合中的元素的Integer类型的时候,其存储也是有序的.
+    TreeSet
+        性质:TreeSet对存储的元素进行了排序,所以其存储是有序的,输出的结果也是有序的.
+            注:自定义对象排序,要实现Comparable<T>接口.
+    LinkedSet
+        性质:LinkedSet因为查询速度也是用了散列,但是看起来它使用链表来维护元素的插入顺序.
+
+适用业务场景:
+    1.由于Set不保存重复的元素,所以适用于需要保存不重复对象的一个业务场景.
+    2.Set最常适用于归属性,即某一个对象object是否属于一个HashSet集合A,通常选用HashSet作为集合,它专门对快速查询进行了优化.
+        A.contains(Object object);
+    如果查询一个大的HashSet集合A,是否包含所有的小的HashSet集合B.
+        A.containsAll(B);
+    3.假设在一个小的HashSet集合B中,找到不属于大的HashSet集合A中的元素
+        Iterator<Object> iterator = B.iterator();
+        while (iterator.hasNext()) {
+            Object object = iterator.next();
+            if(!A.contains(str)) {
+                System.out.print(object + " ");
+            }
+        }
+

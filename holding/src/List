@@ -1,0 +1,34 @@
+List
+    All Methods
+        boolean add(E e)
+        boolean add(int index, E element)
+        boolean addAll(Collection<? extends E> c)
+        boolean addAll(int index, Collection<? extends E> c)
+
+        void clear()
+            Removes all of the elements from the lists
+        boolean contains(Object o)
+        boolean containsAll(Collection<?> C)
+        boolean equals(Object o)
+        E get(int index)
+        int hashCode()
+        int indexOf(Object o)
+        Iterator<E> iterator()
+        int lastIndexOf(Object o)
+        E remove(int index)
+        boolean remove(Object o)
+        boolean removeAll(Collection<?> c)
+        default void replaceAll(UnaryOperator<E> operator)
+            Replaces each element of this list with the result of applying the operator to that element.
+            List.replaceAll(t -> t+1)
+                List中每一个元素都进行t -> t+1操作
+        boolean retainAll(Collection<?> c)
+        E set(int index, E element)
+        int size()
+        default void sort(Comparator<? super E> c)
+            Sorts this list using the supplied Comparator to compare elements.
+        default Spliterator<E> spliterator()
+            Creates a Spliterator over the elements in this list
+        List<E> subList<int fromIndex, int toIndex)
+        Object[] toArray()
+        <T> T[] toArray(T[] a)
