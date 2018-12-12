@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Initialization/Initialization.iml" filepath="$PROJECT_DIR$/Initialization/Initialization.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/ThinkingJava.iml" filepath="$PROJECT_DIR$/.idea/ThinkingJava.iml" />
       <module fileurl="file://$PROJECT_DIR$/exception/exception.iml" filepath="$PROJECT_DIR$/exception/exception.iml" />
       <module fileurl="file://$PROJECT_DIR$/holding/holding.iml" filepath="$PROJECT_DIR$/holding/holding.iml" />

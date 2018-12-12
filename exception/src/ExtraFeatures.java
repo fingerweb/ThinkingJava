@@ -1,6 +1,5 @@
 /**
  * @author yuyz
- *
  * @date 2018-12-06 16:25
  */
 class MyException2 extends Exception{
