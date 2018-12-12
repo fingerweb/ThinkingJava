@@ -6,6 +6,8 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/ThinkingJava.iml" filepath="$PROJECT_DIR$/.idea/ThinkingJava.iml" />
       <module fileurl="file://$PROJECT_DIR$/exception/exception.iml" filepath="$PROJECT_DIR$/exception/exception.iml" />
       <module fileurl="file://$PROJECT_DIR$/holding/holding.iml" filepath="$PROJECT_DIR$/holding/holding.iml" />
+      <module fileurl="file://$PROJECT_DIR$/interClass/interClass.iml" filepath="$PROJECT_DIR$/interClass/interClass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/interfaces/interfaces.iml" filepath="$PROJECT_DIR$/interfaces/interfaces.iml" />
     </modules>
   </component>
 </project>
