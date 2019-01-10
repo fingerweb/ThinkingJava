@@ -7,13 +7,13 @@ import java.util.regex.Pattern;
  */
 public class TheReplacements {
     public static void main(String[] args) {
-        String str = "/* Here's   a   black   of, text to use as input to the regular expression matcher." +
-                "   Note that we'll first extract the black of text by looking for the spacial delimiter" +
+        String str = "/* Here's   a   black   of text to use as input to the regular expression matcher.\n" +
+                "   Note that we'll first extract the black of text by looking for the spacial delimiter\n" +
                 " ,then  process the extracted block.!*/" + " this is a motify you hi hello";
-        Pattern pattern = Pattern.compile("/\\*(.*)\\*/");
-        Matcher mathcer = pattern.matcher(str);
-        while(mathcer.find()){
-            String s = mathcer.group(1);
+        Pattern pattern = Pattern.compile("(?s)/\\*(.*)\\*/");
+        Matcher matcher = pattern.matcher(str);
+        while(matcher.find()){
+            String s = matcher.group(1);
             System.out.println(s);
             String s1 = s.replaceAll(" {2,}", " ");
             System.out.println(s1);

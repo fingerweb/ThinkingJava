@@ -37,7 +37,7 @@ class Implementation2Factory implements ServiceFactory{
         return new Implementation2();
     }
 }
-public class Factories {
+public class  Factories {
     public static void ServiceConsumer(ServiceFactory serviceFactory) {
         Service service = serviceFactory.getService();
         service.method1();

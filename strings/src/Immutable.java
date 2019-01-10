@@ -2,6 +2,16 @@
  * @author yuyz
  * @date 2018-12-14 7:29
  */
+final class A {
+    private final int a;
+    A(int c) {
+        a = c;
+    }
+
+    public int getA() {
+        return a;
+    }
+}
 public class Immutable {
     private static String upcase(String s) {
         return s.toUpperCase();
@@ -18,5 +28,18 @@ public class Immutable {
         System.out.println("str1 = " + str1);
         System.out.println("str2 = " + str2);
         System.out.println("str3 = " + str3);
+
+        System.out.println("**********************************************");
+        //String类型的只读属性,String被final修饰
+        final char[] chars = {'a', 'b', 'c', 'd'};
+        chars[0] = 'e';
+        for(char c : chars)
+            System.out.println(c);
+
+        A a = new A(1);
+        A b = a;
+        b = new A(2);
+        System.out.println(a.getA());
+        System.out.println(b.getA());
     }
 }

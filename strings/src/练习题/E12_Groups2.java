@@ -11,14 +11,17 @@ import java.util.regex.Pattern;
  */
 public class E12_Groups2 {
     public static void main(String[] args) {
-        Set<String> words = new HashSet<String>();
-        Matcher m =
-                Pattern.compile("\\b(?!([A-Z])\\w+)\\b")
-                        .matcher("Hello hello Mother father sister ge Ge");
-        while(m.find())
-            words.add(m.group(1));
-        System.out.println(("Number of unique words = " + words.size()));
-        for(String str : words)
-            System.out.println(str + "   ");
+        String str = " Hello hello Mother father sister ge Ge ";
+        Set<String> set = new HashSet<String>();
+        String pottern = "\\b((?![A-Z])\\w+)\\b";
+        Pattern pattern = Pattern.compile(pottern);
+        Matcher matcher = pattern.matcher(str);
+        while (matcher.find()) {
+            set.add(matcher.group(1));
+        }
+        System.out.println(set.size());
+        for(String st: set)
+            System.out.println(st);
+
     }
 }
