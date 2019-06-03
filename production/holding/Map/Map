@@ -1,0 +1,19 @@
+Map
+    性质:将对象映射到其他对象的一种数据结构(键值对映射).
+分类:
+    HashMap:
+        方法:
+            HashMap.containsKey("key")
+                集合中是否包含键值为key的键值对,包含返回true,否则返回false
+            HashMap.containsValue("Value")
+                集合中是否包含值为value的键值对,包含返回true,否则返回false
+            HashMap.KeySet()
+                返回一个Map中所有Key值组成的Set集合.在foreach语句中被用来遍历该Map
+业务场景:
+    1.在一个多维的Map:Map<Person, List<Pet>>,一个人拥有的宠物这样的键值对.遍历在Map中所有人的宠物.
+        for(Person person : map.keySet()){
+            print("person : " + person );
+            for(Pet pet : map.get(person)) {
+                //遍历pet对象
+            }
+        }

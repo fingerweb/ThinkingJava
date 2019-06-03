@@ -7,9 +7,7 @@ import javax.xml.ws.Holder;
  * @date 2019-01-10 9:35
  */
 public class E02_Holder<T> {
-    private T t1;
-    private T t2;
-    private T t3;
+    private T t1, t2, t3;
 
     public E02_Holder(T t1, T t2, T t3) {
         this.t1 = t1;

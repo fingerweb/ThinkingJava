@@ -4,13 +4,16 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Initialization/Initialization.iml" filepath="$PROJECT_DIR$/Initialization/Initialization.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/ThinkingJava.iml" filepath="$PROJECT_DIR$/.idea/ThinkingJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/containers/containers.iml" filepath="$PROJECT_DIR$/containers/containers.iml" />
       <module fileurl="file://$PROJECT_DIR$/exception/exception.iml" filepath="$PROJECT_DIR$/exception/exception.iml" />
       <module fileurl="file://$PROJECT_DIR$/generics/generics.iml" filepath="$PROJECT_DIR$/generics/generics.iml" />
       <module fileurl="file://$PROJECT_DIR$/holding/holding.iml" filepath="$PROJECT_DIR$/holding/holding.iml" />
       <module fileurl="file://$PROJECT_DIR$/interClass/interClass.iml" filepath="$PROJECT_DIR$/interClass/interClass.iml" />
       <module fileurl="file://$PROJECT_DIR$/interfaces/interfaces.iml" filepath="$PROJECT_DIR$/interfaces/interfaces.iml" />
+      <module fileurl="file://$PROJECT_DIR$/io/io.iml" filepath="$PROJECT_DIR$/io/io.iml" />
       <module fileurl="file://$PROJECT_DIR$/reusing/reusing.iml" filepath="$PROJECT_DIR$/reusing/reusing.iml" />
       <module fileurl="file://$PROJECT_DIR$/strings/strings.iml" filepath="$PROJECT_DIR$/strings/strings.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
       <module fileurl="file://$PROJECT_DIR$/typeinfo/typeinfo.iml" filepath="$PROJECT_DIR$/typeinfo/typeinfo.iml" />
     </modules>
   </component>
